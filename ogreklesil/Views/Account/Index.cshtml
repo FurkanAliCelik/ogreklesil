@@ -1,0 +1,35 @@
+﻿@using ogreklesil.Models.Repositories;
+@{
+    @model List<Student>
+
+    <h1>Öğrenci Listesi</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ad</th>
+                <th>SoyAd</th>
+                <th>E-posta</th>
+                <th>Telefon Numarası</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Id</td>
+                    <td>@student.Name</td>
+                    <td>@student.SurName</td>
+                    <td>@student.Email</td>
+                    <td>@student.PhoneNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Create" class="btn btn-primary">Yeni Öğrenci Ekle</a>
+
+}
+
+

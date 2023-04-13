@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Name": "Arda,",
+    "SurName": "Selimoğlu",
+    "Email": "Ardaselimoglu@gmail.com",
+    "PhoneNumber": "12345678965"
+  },
+  {
+    "Id": 2,
+    "Name": "Furkan",
+    "SurName": "Çelik", 
+    "PhoneNumber": "31564893541"
+  },
+  {
+    "Id": 3,
+    "Name": "Mehmet",
+    "SurName": "Demir",
+    "Email": "Mehmetdemir@gmail.com",
+    "PhoneNumber": "55632145987"
+  }
+]

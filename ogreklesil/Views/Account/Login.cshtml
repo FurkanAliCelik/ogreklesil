@@ -1,0 +1,33 @@
+﻿@using ogreklesil.Models.Requests;
+@model UserLoginRequest
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<form asp-controller="Home" asp-action="Index">
+    <div>
+        <label>Username:</label>
+        <input type="text" id="Username" />
+      <br />
+      <br />
+    </div>
+    <div>
+        <label>Password:</label>
+        <input style="margin-left=10px" type="password" asp-for="Password" id="Password" />
+    </div>
+    <div> 
+        <br />
+      
+        <input id="Button" type="submit" value="Giris yap"  />
+
+
+    </div>
+</form>
+
+
+
+
+
+
+
